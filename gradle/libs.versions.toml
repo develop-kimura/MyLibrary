@@ -1,0 +1,7 @@
+[versions]
+androidGradlePlugin = "8.7.3"
+kotlin = "1.9.24"
+
+[plugins]
+com-android-library = { id = "com.android.library", version.ref = "androidGradlePlugin" }
+org-jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
